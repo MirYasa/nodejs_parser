@@ -1,0 +1,27 @@
+{
+  "name": "parser",
+  "version": "1.0.0",
+  "description": "parser",
+  "main": "src/index.ts",
+  "scripts": {
+    "compile": "tsc src/index.ts",
+    "node": "node src/index.js",
+    "start": "npm run compile && npm run node"
+  },
+  "keywords": [
+    "parser",
+    "node.js",
+    "web"
+  ],
+  "author": "MirYasa",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@types/cheerio": "^0.22.31",
+    "axios": "^0.25.0",
+    "cheerio": "^1.0.0-rc.10"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.5"
+  }
+}
